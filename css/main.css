@@ -1,0 +1,201 @@
+/* ---- Base ---- */
+
+html,body {
+		color: #000;
+  	background-color: red;
+  	background-image:
+    linear-gradient(to bottom, red, orange, yellow 120%);}
+
+body {
+		font-family: 'Istok Web', sans-serif;
+		font-size: 1em;
+		line-height: 1.25em;
+		margin: 0;}
+
+.nav-container {
+		background-color: black;
+		padding: 0.25em 0.5em;}
+
+.nav li {
+	display: inline-block;
+	color: white;
+	margin-right: 1.25em;
+	margin-top: 0.5em;}
+
+a {text-decoration: none;}
+
+h1 {
+		color: white;
+		font-size: 2em;
+		line-height: 1.5em;
+		text-align: center;
+}
+
+h2 {
+		font-size: 1.5em;
+		line-height: 1.25em;
+		text-align: left;
+		padding: 0 0.5em;
+		margin:1em 0 0 0;}
+
+p {
+		font-size: 1em;
+		line-height: 1.25em;
+		padding: 0 0.5em;
+}
+
+.logo-container {
+		margin: 0 auto;
+		width: 18.75em;
+		height: 35.625em;
+}
+
+.header {
+		width: 90%;
+		padding: 0 0.5em;
+		margin: 0;}
+
+.logo img {
+		background-size: contain;
+		vertical-align: middle;
+		align-content: center;
+		border: 0;
+		margin-top: 0.5em;
+		margin: auto;
+		max-width: 100%;}
+
+.photo img {
+		background-size: contain;
+		vertical-align: middle;
+		border: 0;
+		padding: 0.25em 0.5em;
+		width: 18.75em;}
+
+.button-register {
+		display: block;
+		font-size: 1em;
+		height: 2em;
+		margin: auto;
+		width: 5.125em;
+		color:#ffffff;
+		border: 0;
+		background:#000000;
+		border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+		margin-bottom: 1em;
+		}
+
+.Registration-container {
+		width: 20em;
+		margin: auto;}
+
+.one-mile-pass {
+		display: inline-block;
+		float: left;
+		width: 9.375em;
+		margin-top: 1em;
+		margin-bottom: 1em;}
+
+.Spectator-pass {
+		display: inline-block;
+		width: 9.375em;
+		border-left: 1px solid #000000;
+		margin-top: 1em;
+		margin-bottom: 1em;}
+
+.one-mile-pass p, .Spectator-pass p {text-align: center;
+}
+
+.sponsor-logo img {
+		background-size: contain;
+		vertical-align: middle;
+		border: 0;
+		padding: 0.25em 0.5em;
+		width: 18.75em;}
+
+.footer-text {
+		display: inline-block;
+		font-size: 0.875em;
+		margin: 1.25em 0.5em;}
+
+.footer-icon {
+		float: left;
+		padding: 1.25em 0.5em;}
+
+.author p {
+		text-align: center;}
+
+/*---- Accordion menu for FAQ ----*/
+.accordion { 
+    margin:0 auto;
+    font-size:0.875em;
+    width:90%;
+    padding:0.625em;
+}
+.accordion ul {
+    list-style:none;
+    margin:0;
+    padding:0;    
+}
+.accordion li {
+    margin:0;
+    padding:0;
+}
+.accordion [type=radio], .accordion [type=checkbox] {
+    display:none;
+}
+.accordion label {
+    display:block;
+    font-size:1em;
+    line-height:1em;
+		border-top: 1px solid black;
+    color:#000000;
+    font-weight:700;
+    cursor:pointer;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+}
+.accordion ul li label:hover, .accordion [type=radio]:checked ~ label, .accordion [type=checkbox]:checked ~ label {
+    background:#000000;
+    color:#FFF;
+}
+.accordion .content {
+    padding:0 0.625em;
+    overflow:hidden;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+}
+.accordion p {
+    color:#000000;
+    margin:0.5em 0 1.6em;
+}
+
+
+/* Vertical */
+.vertical ul li {
+    overflow:hidden;
+    margin:0 0 1px;
+}
+.vertical ul li label {
+    padding:0.625em;
+}
+.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
+    border-bottom:0;
+}
+.vertical ul li label:hover {
+    border:1px solid #542437; 
+}
+.vertical ul li .content {
+    height:0px;
+    border-top:0;
+}
+.vertical [type=radio]:checked ~ label ~ .content, .vertical [type=checkbox]:checked ~ label ~ .content {
+    height:7.5em;
+}
+
+/* ---- Layout ---- */
+	/* ---- Row ---- */
+	
+	/* ---- Column ---- */
+	.
+
